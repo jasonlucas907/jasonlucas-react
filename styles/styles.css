@@ -1,0 +1,26 @@
+/**********************************************
+          General
+***********************************************/
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+
+/**********************************************
+          Body
+***********************************************/
+
+body  {
+  height: 100%;
+  width: 100%;
+  background: #292626;
+  background: #666666;
+  background: #b99877;
+  background: #dce4e7;
+  background: #FFF;
+  font-family: 'Arimo', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700|Germania+One')

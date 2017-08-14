@@ -1,0 +1,343 @@
+/**********************************************
+          Who I Am Container
+***********************************************/
+
+.who-i-am-container {
+  height: 800px;
+  width: 100%;
+  background: #FFF;
+  position: relative;
+}
+
+.who-i-am-container-title-container {
+  height: 40px;
+  width: 200PX;
+  margin: auto;
+  animation-name: who-title-container-slide;
+  animation-duration: 2s;
+}
+
+@keyframes who-title-container-slide {
+    0%   {margin-top: 50px;}
+    100% {margin-top: 0px;}
+}
+
+.who-i-am-title {
+  font-family: 'Germania One', cursive;
+  font-size: 37px;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.inner-who-i-am-container {
+  height: 400px;
+  width: 90%;
+  margin: auto;
+  margin-top: 35px;
+  animation-name: inner-container-slide;
+  animation-duration: 3s;
+}
+
+@keyframes inner-container-slide {
+    0%   {margin-right: -1000px;}
+    99% {margin-right: 75px;}
+    100% {margin-right: auto;}
+}
+
+.who-i-am-image-container  {
+  height: 400px;
+  width: 49%;
+  display: inline-block;
+  position: relative;
+}
+
+.who-i-am-upper-container {
+  width: 100%;
+  height: 45%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image  {
+  width: 180px;
+  border-radius: 100px;
+  border: solid 1px black;
+  box-shadow: 1px 1px 4px black;
+}
+
+.who-i-am-lower-container {
+  width: 100%;
+  height: 55%;
+  position: absolute;
+  top: 45%;
+}
+
+.who-i-am-lower-container-background  {
+  width: 100%;
+  height: 95%;
+  background: #dce4e7;
+  margin-top: 10px;
+  opacity: .5;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.who-i-am-name  {
+  font-size: 26px;
+  font-weight: 800;
+  color: #b99877;
+  /* margin-top: 10px; */
+  margin: 18px 0 0 10px;
+  text-decoration: underline;
+  position: absolute;
+}
+
+/*.outline-container  {
+  width: 90%;
+  height: 70%;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}*/
+
+.who-i-am-outline {
+  font-size: 15px;
+  font-weight: 400;
+  /* margin: 0 10px 0 10px; */
+  padding: 10px 10px 0 10px;
+  position: absolute;
+  top: 46px;
+  opacity: .6;
+}
+
+
+
+/**********************************************
+          Skills Container
+***********************************************/
+
+.who-i-am-skills-container {
+  height: 400px;
+  width: 50%;
+  display: inline-block;
+  /*background: #dce4e7;
+  opacity: .3;*/
+  border-radius: 5px;
+  position: relative;
+}
+
+.who-i-am-skills-container-background {
+  height: 400px;
+  width: 100%;
+  display: inline-block;
+  background: #dce4e7;
+  opacity: .3;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 0;
+}
+
+.skills-aquired  {
+  font-size: 26px;
+  font-weight: 800;
+  color: #b99877;
+  /* margin-top: 10px; */
+  margin: 28px 0 0 20px;
+  text-decoration: underline;
+  position: absolute;
+  z-index: 1;
+}
+
+.bar-graph-sec  {
+  width: 90%;
+  height: 320px;
+  position: absolute;
+  left: 4%;
+  top: 17%;
+}
+
+.bar-graph-container  {
+  width: 100%;
+  height: 260px;
+  /*background: #edf2f6;*/
+  margin-top: 20px;
+  display: flex;
+}
+
+.bar-graph-numbers  {
+  width: 14%;
+  /*height: 100%;
+  background: #edf2f6;*/
+  display: inline-block;
+}
+
+.graph-numbers  {
+  font-size: 20px;
+  color: #666666;
+  margin: 37px 10px 0 0;
+  text-align: right;
+}
+
+.graph-numbers1  {
+  font-size: 20px;
+  color: #666666;
+  margin: 0 10px 0 0;
+  text-align: right;
+}
+
+.bargraph-chart-container {
+  width: 89%;
+  height: 100%;
+  display: inline-block;
+}
+
+.bars-container {
+  width: 100%;
+  height: 100%;
+  /*background: #edf2f6;*/
+  display: flex;
+}
+
+.bar-graph-labels {
+  font-size: 14px;
+  position: absolute;
+  top: 283px;
+  text-align: center;
+}
+
+.bar-base {
+  height: 100%;
+  width: 13%;
+  background: #b99877;
+  margin-left: 10%;
+  display: inline-block;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.bb1  {
+  margin-left: 5px;
+}
+
+.bb14  {
+  margin-right: 10%;
+}
+
+.bar-color  {
+  width: 100%;
+  background: #dae4e9;
+}
+
+.bc1  {
+  height: 30%;
+  animation-name: bc1;
+  animation-duration: 4s;
+}
+
+@keyframes bc1 {
+    0%   {height: 0%;}
+    25%  {height: 100%;}
+    50%  {height: 90%;}
+    75%  {height: 50%;}
+    100% {height: 30%;}
+}
+
+.bc2  {
+  height: 20%;
+  animation-name: bc2;
+  animation-duration: 4s;
+}
+
+@keyframes bc2 {
+    0%   {height: 0%;}
+    25%  {height: 100%;}
+    50%  {height: 60%;}
+    75%  {height: 100%;}
+    100% {height: 20%;}
+}
+
+.bc3  {
+  height: 50%;
+  animation-name: bc3;
+  animation-duration: 4s;
+}
+
+@keyframes bc3 {
+    0%   {height: 0%;}
+    25%  {height: 70%;}
+    50%  {height: 40%;}
+    75%  {height: 70%;}
+    100% {height: 50%;}
+}
+
+.bc4  {
+  height: 30%;
+  animation-name: bc4;
+  animation-duration: 4s;
+}
+
+@keyframes bc4 {
+    0%   {height: 0%;}
+    25%  {height: 50%;}
+    50%  {height: 40%;}
+    75%  {height: 70%;}
+    100% {height: 30%;}
+}
+
+
+.days-container {
+  width: 100%;
+  height: 18px;
+  background: #edf2f6;
+  display: flex;
+}
+
+.day-container {
+  height: 18px;
+  width: 8%;
+  background: #edf2f6;
+  margin-left: 2%;
+  display: inline-block;
+}
+
+.day  {
+  font-size: 14px;
+  color: #565c72;
+  text-align: center;
+}
+
+.dc1  {
+  margin-left: 5px;
+}
+
+.dc14  {
+  margin-right: 10%;
+}
+
+.applicants-button-container {
+  width: 100%;
+  height: 60px;
+  background: #edf2f6;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.applicants-button {
+  height: 30px;
+  width: 200px;
+  color: #565c72;
+  background: #FFF;
+  border-radius: 20px;
+  border: solid 1px #d0d1d5;
+}
+
+.applicants-button:hover {
+  background: #3eb4c2;
+  color: #FFF;
+  cursor: pointer;
+}
