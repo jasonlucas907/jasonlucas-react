@@ -75,13 +75,14 @@
 }
 
 .who-i-am-lower-container-background  {
-  width: 100%;
+  width: 98%;
   height: 95%;
   background: #dce4e7;
   margin-top: 10px;
   opacity: .5;
   border-radius: 5px;
   position: absolute;
+  box-shadow: 1px 1px 4px black;
 }
 
 .who-i-am-name  {
@@ -122,8 +123,6 @@
   height: 400px;
   width: 50%;
   display: inline-block;
-  /*background: #dce4e7;
-  opacity: .3;*/
   border-radius: 5px;
   position: relative;
 }
@@ -137,13 +136,13 @@
   border-radius: 5px;
   position: absolute;
   z-index: 0;
+  box-shadow: 1px 1px 4px black;
 }
 
 .skills-aquired  {
   font-size: 26px;
   font-weight: 800;
   color: #b99877;
-  /* margin-top: 10px; */
   margin: 28px 0 0 20px;
   text-decoration: underline;
   position: absolute;
@@ -285,59 +284,4 @@
     50%  {height: 40%;}
     75%  {height: 70%;}
     100% {height: 30%;}
-}
-
-
-.days-container {
-  width: 100%;
-  height: 18px;
-  background: #edf2f6;
-  display: flex;
-}
-
-.day-container {
-  height: 18px;
-  width: 8%;
-  background: #edf2f6;
-  margin-left: 2%;
-  display: inline-block;
-}
-
-.day  {
-  font-size: 14px;
-  color: #565c72;
-  text-align: center;
-}
-
-.dc1  {
-  margin-left: 5px;
-}
-
-.dc14  {
-  margin-right: 10%;
-}
-
-.applicants-button-container {
-  width: 100%;
-  height: 60px;
-  background: #edf2f6;
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.applicants-button {
-  height: 30px;
-  width: 200px;
-  color: #565c72;
-  background: #FFF;
-  border-radius: 20px;
-  border: solid 1px #d0d1d5;
-}
-
-.applicants-button:hover {
-  background: #3eb4c2;
-  color: #FFF;
-  cursor: pointer;
 }

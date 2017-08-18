@@ -1,156 +1,292 @@
 /**********************************************
-          Work Page
+          Who I Am Page
 ***********************************************/
 
+.who-i-am-page-spacer  {
+  width: 100%;
+  height: 100px;
+}
 
-/**********************************************
-          My Name Is Container
-***********************************************/
-
-.work-container {
+/*.who-i-am-container {
   height: 800px;
   width: 100%;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-
-.work-image  {
-  width: 110%;
-  height: 100%;
-  position: absolute;
-  left: -30px;
-  object-fit: cover;
-}
-
-.work-background {
-  position: absolute;
-  top: 0px;
-  left: 58%;
-  height: 800px;
-  width: 42%;
   background: #FFF;
-  opacity: .2;
-  box-shadow: -13px 0px 24px black;
-  z-index: 0;
-  animation-name: work-background-slide;
-  animation-duration: 1s;
-}
+  position: relative;
+}*/
 
-@keyframes work-background-slide {
-  0% {
-    height: 0px;
-  }
-  100% {
-    height: 800px;
-  }
-}
-
-
-
-
-
-
-.work-title-outer-container {
-  position: absolute;
-  top: 0px;
-  left: 58%;
-  height: 800px;
-  width: 42%;
-  animation-name: work-outer-container-slide;
-  animation-duration: 1s;
-}
-
-@keyframes work-outer-container-slide {
-  0% {
-    height: 0px;
-  }
-  100% {
-    height: 800px;
-  }
-}
-
-.work-title-container {
-  position: absolute;
-  top: 40%;
-  left: 12%;
-  height: 103px;
-  width: 86%;
-}
-
-.work-title  {
-  font-family: 'Germania One', cursive;
-  font-size: 63px;
-  color: #b99877;
-  text-shadow: 1px 1px 15px black;
-  position: absolute;
-  top: 10px;
-  left: 80px;
-  transform: rotate(0deg);
-  transform: rotate(-2deg);
-  animation-duration: 3s;
-  animation-delay: 0s;
-  animation-name: titleSlide;
-}
-
-@keyframes titleSlide {
-  0% {
-    transform: rotate(-3deg);
-  }
-  50% {
-    transform: rotate(2deg);
-  }
-  100% {
-    transform: rotate(-2deg);
-  }
-}
-
-.recent-projects {
-  font-family: 'Germania One', cursive;
-  font-size: 28px;
-  color: #b99877;
-  text-shadow: 1px 1px 15px black;
-  position: absolute;
-  top: 57px;
-  left: 126px;
-  transform: rotate(0deg);
-  animation-name: fadeIn;
+.who-i-am-page-container-title-container {
+  height: 40px;
+  width: 200PX;
+  margin: auto;
+  animation-name: who-page-title-container-slide;
   animation-duration: 2s;
 }
 
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes who-page-title-container-slide {
+    0%   {margin-top: 50px;}
+    100% {margin-top: 0px;}
+}
 
-.scroll {
-  font-size: 14px;
+.who-i-am-page-title {
+  font-family: 'Germania One', cursive;
+  font-size: 37px;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.inner-who-i-am-page-container {
+  height: 400px;
+  width: 90%;
+  margin: auto;
+  margin-top: 35px;
+  animation-name: inner-page-container-slide;
+  animation-duration: 3s;
+}
+
+@keyframes inner-page-container-slide {
+    0%   {margin-right: -1000px;}
+    99% {margin-right: 75px;}
+    100% {margin-right: auto;}
+}
+
+.who-i-am-page-image-container  {
+  height: 400px;
+  width: 49%;
+  display: inline-block;
+  position: relative;
+}
+
+.who-i-am-page-upper-container {
+  width: 100%;
+  height: 45%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.who-i-am-page-profile-image  {
+  width: 180px;
+  border-radius: 100px;
+  border: solid 1px black;
+  box-shadow: 1px 1px 4px black;
+}
+
+.who-i-am-page-lower-container {
+  width: 100%;
+  height: 55%;
+  position: absolute;
+  top: 45%;
+}
+
+.who-i-am-page-lower-container-background  {
+  width: 98%;
+  height: 95%;
+  background: #dce4e7;
+  margin-top: 10px;
+  opacity: .5;
+  border-radius: 5px;
+  position: absolute;
+  box-shadow: 1px 1px 4px black;
+}
+
+.who-i-am-page-name  {
+  font-size: 26px;
+  font-weight: 800;
+  color: #b99877;
+  /* margin-top: 10px; */
+  margin: 18px 0 0 10px;
+  text-decoration: underline;
+  position: absolute;
+}
+
+/*.outline-container  {
+  width: 90%;
+  height: 70%;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}*/
+
+.who-i-am-page-outline {
+  font-size: 15px;
   font-weight: 400;
-  color: #FFF;
+  /* margin: 0 10px 0 10px; */
+  padding: 10px 10px 0 10px;
   position: absolute;
-  top: 679px;
-  left: 48%;
-  z-index: 9;
+  top: 46px;
+  opacity: .6;
 }
 
-.scroll-line  {
-  height: 53px;
-  width: 5px;
-  background: #FFF;
-  position: absolute;
-  top: 706px;
-  left: 50%;
-  z-index: 9;
+
+
+/**********************************************
+          Skills Container
+***********************************************/
+
+.who-i-am-page-skills-container {
+  height: 400px;
+  width: 50%;
+  display: inline-block;
+  border-radius: 5px;
+  position: relative;
 }
 
-.work-bottom-border  {
-  height: 80px;
-  width: 140%;
-  background: #FFF;
+.who-i-am-page-skills-container-background {
+  height: 400px;
+  width: 100%;
+  display: inline-block;
+  background: #dce4e7;
+  opacity: .3;
+  border-radius: 5px;
   position: absolute;
-  top: 746px;
-  left: -5px;
-  transform: rotate(-2deg);
-  box-shadow: 2px -6px 24px black;
-  z-index: 9;
+  z-index: 0;
+  box-shadow: 1px 1px 4px black;
+}
+
+.who-i-am-page-skills-aquired  {
+  font-size: 26px;
+  font-weight: 800;
+  color: #b99877;
+  margin: 28px 0 0 20px;
+  text-decoration: underline;
+  position: absolute;
+  z-index: 1;
+}
+
+.who-i-am-page-bar-graph-sec  {
+  width: 90%;
+  height: 320px;
+  position: absolute;
+  left: 4%;
+  top: 17%;
+}
+
+.who-i-am-page-bar-graph-container  {
+  width: 100%;
+  height: 260px;
+  /*background: #edf2f6;*/
+  margin-top: 20px;
+  display: flex;
+}
+
+.who-i-am-page-bar-graph-numbers  {
+  width: 14%;
+  /*height: 100%;
+  background: #edf2f6;*/
+  display: inline-block;
+}
+
+.who-i-am-page-graph-numbers  {
+  font-size: 20px;
+  color: #666666;
+  margin: 37px 10px 0 0;
+  text-align: right;
+}
+
+.who-i-am-page-graph-numbers1  {
+  font-size: 20px;
+  color: #666666;
+  margin: 0 10px 0 0;
+  text-align: right;
+}
+
+.who-i-am-page-bargraph-chart-container {
+  width: 89%;
+  height: 100%;
+  display: inline-block;
+}
+
+.who-i-am-page-bars-container {
+  width: 100%;
+  height: 100%;
+  /*background: #edf2f6;*/
+  display: flex;
+}
+
+.who-i-am-page-bar-graph-labels {
+  font-size: 14px;
+  position: absolute;
+  top: 283px;
+  text-align: center;
+}
+
+.who-i-am-page-bar-base {
+  height: 100%;
+  width: 13%;
+  background: #b99877;
+  margin-left: 10%;
+  display: inline-block;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.bb1  {
+  margin-left: 5px;
+}
+
+.bb14  {
+  margin-right: 10%;
+}
+
+.who-i-am-page-bar-color  {
+  width: 100%;
+  background: #dae4e9;
+}
+
+.bc1  {
+  height: 30%;
+  animation-name: bc1;
+  animation-duration: 4s;
+}
+
+@keyframes bc1 {
+    0%   {height: 0%;}
+    25%  {height: 100%;}
+    50%  {height: 90%;}
+    75%  {height: 50%;}
+    100% {height: 30%;}
+}
+
+.bc2  {
+  height: 20%;
+  animation-name: bc2;
+  animation-duration: 4s;
+}
+
+@keyframes bc2 {
+    0%   {height: 0%;}
+    25%  {height: 100%;}
+    50%  {height: 60%;}
+    75%  {height: 100%;}
+    100% {height: 20%;}
+}
+
+.bc3  {
+  height: 50%;
+  animation-name: bc3;
+  animation-duration: 4s;
+}
+
+@keyframes bc3 {
+    0%   {height: 0%;}
+    25%  {height: 70%;}
+    50%  {height: 40%;}
+    75%  {height: 70%;}
+    100% {height: 50%;}
+}
+
+.bc4  {
+  height: 30%;
+  animation-name: bc4;
+  animation-duration: 4s;
+}
+
+@keyframes bc4 {
+    0%   {height: 0%;}
+    25%  {height: 50%;}
+    50%  {height: 40%;}
+    75%  {height: 70%;}
+    100% {height: 30%;}
 }
