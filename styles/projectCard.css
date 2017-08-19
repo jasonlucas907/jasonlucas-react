@@ -1,0 +1,206 @@
+.work-box-container {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  background: #666666;
+  margin: 5px 5px 5px 5px;
+  overflow: none;
+  position: relative;
+  box-shadow: 1px 1px 10px black;
+  transition: .7s;
+}
+
+.work-video-container {
+  width: 300px;
+  height: 200px;
+  background: green;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.work-video {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.work-box-links-container {
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  position: absolute;
+  z-index: 10;
+  border-radius: 10px;
+}
+
+.work-box-links-background  {
+  width: 310px;
+  height: 76px;
+  background: #666666;
+  /*opacity: .95;*/
+  position: absolute;
+  transform: rotate(-2deg);
+  top: 164px;
+  left: -8px;
+  animation-name: work-box-links-background-slide;
+  animation-duration: 1s;
+}
+
+@keyframes work-box-links-background-slide {
+  0% {
+    height: 0px;
+    top: 200px;
+    transform: rotate(0deg);
+  }
+  100% {
+    height: 76px;
+    top: 164px;
+    transform: rotate(-2deg);
+  }
+}
+
+.work-box-site {
+  top: 171px;
+}
+
+.work-box-github {
+  top: 195px;
+}
+
+.work-box-comp {
+  top: 220px;
+}
+
+.work-link  {
+  font-family: 'Germania One', cursive;
+  font-size: 22px;
+  color: #FFF;
+  position: absolute;
+  left: 20px;
+  opacity:0;
+  opacity: 1 \9; just in case ie
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+
+  -webkit-animation-delay: .5s;
+  -moz-animation-delay: .5s;
+  animation-delay: .5s;
+}
+
+.work-link:hover  {
+  cursor: pointer;
+  color: #b99877;
+}
+
+.work-image-container {
+  width: 300px;
+  height: 200px;
+  background: yellow;
+  overflow: none;
+  position: absolute;
+  z-index: 10;
+  border-radius: 10px;
+}
+
+.work-box-image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.work-box-title-background  {
+  width: 300px;
+  height: 50px;
+  background: #666666;
+  /*opacity: .5;*/
+  position: absolute;
+  top: 188px;
+  transform: rotate(2deg);
+  animation-name: work-box-title-background-slide;
+  animation-duration: 1s;
+}
+
+@keyframes work-box-title-background-slide {
+  0% {
+    height: 0px;
+    top: 200px;
+    transform: rotate(0deg);
+  }
+  100% {
+    height: 50px;
+    top: 188px;
+    transform: rotate(2deg);
+  }
+}
+
+.work-box-title {
+  font-family: 'Germania One', cursive;
+  font-size: 32px;
+  color: #FFF;
+  position: absolute;
+  top: 196px;
+  left: 20px;
+  opacity:0;
+  opacity: 1 \9; just in case ie
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+
+  -webkit-animation-delay: .5s;
+  -moz-animation-delay: .5s;
+  animation-delay: .5s;
+}
+
+.work-box-description {
+  font-size: 14px;
+  color: #FFF;
+  position: absolute;
+  top: 226px;
+  left: 20px;
+  opacity:0;
+  opacity: 1 \9; just in case ie
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+
+  -webkit-animation-delay: .5s;
+  -moz-animation-delay: .5s;
+  animation-delay: .5s;
+}
+
+.hide {
+  display: none;
+}
+
+.scale  {
+  transform: scale(1.15);
+  z-index: 1000;
+}
