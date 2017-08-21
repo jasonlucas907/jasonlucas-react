@@ -13,6 +13,7 @@
   height: 40px;
   width: 200PX;
   margin: auto;
+  margin-top: 30px;
   animation-name: who-title-container-slide;
   animation-duration: 2s;
 }

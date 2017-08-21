@@ -2,7 +2,7 @@
   width: 100%;
   height: 550px;
   /*background: #8a8a8a;*/
-  /*margin-top: 40px;*/
+  margin-top: 30px;
   margin-bottom: 40px;
   overflow: hidden;
   position: relative;
@@ -53,10 +53,158 @@
   height: 300px;
   margin: auto;
   margin-top: 25px;
+  /*background: #FFF;
+  opacity: .2;*/
+  border-radius: 5px;
+  /*box-shadow: 1px 1px 40px black;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form-container-background  {
+  width: 80%;
+  height: 300px;
+  position: absolute;
+  /*margin: auto;*/
+  /*margin-top: 25px;*/
   background: #FFF;
   opacity: .2;
   border-radius: 5px;
   box-shadow: 1px 1px 40px black;
+  /*display: flex;
+  align-items: center;
+  justify-content: center;*/
+}
+
+.contact-form-background  {
+  width: 100%;
+  height: 100%;
+  background: #FFF;
+  opacity: .7;
+  border-radius: 5px;
+  box-shadow: 1px 1px 40px black;
+  position: absolute;
+  z-index: -1;
+}
+
+.contact-form-right {
+  width: 46%;
+  height: 85%;
+  /*background: #FFF;
+  opacity: .7;
+  border-radius: 5px;
+  box-shadow: 1px 1px 40px black;*/
+  margin-right: 2%;
+  position: relative;
+}
+
+.form-title  {
+  font-family: 'Germania One', cursive;
+  font-size: 24px;
+  color: #FFF;
+  color: #b99877;
+  margin: 10px 0 0 10px;
+}
+
+.form-input {
+  width: 94%;
+  height: 32px;
+  margin: 0 0 0 10px;
+  font-size: 20px;
+}
+
+.message-input {
+  width: 94%;
+  height: 130px;
+  margin: 0 0 0 10px;
+  font-size: 20px;
+}
+
+.contact-form-left {
+  width: 46%;
+  height: 85%;
+  /*background: #FFF;
+  opacity: .7;
+  border-radius: 5px;
+  box-shadow: 1px 1px 40px black;*/
+  position: relative;
+}
+
+.submit-container {
+  width: 94%;
+  height: 79px;
+  /*background: red;*/
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit-button-container  {
+  width: 40%;
+  height: 100%;
+  /*background: green;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit-button{
+  width: 65%;
+  height: 30px;
+  background: #b99877;
+  border-radius: 5px;
+  box-shadow: 1px 1px 20px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit-button:hover{
+  background: #FFF;
+  cursor: pointer;
+}
+
+.submit  {
+  font-family: 'Germania One', cursive;
+  font-size: 22px;
+  color: #FFF;
+}
+
+.submit:hover  {
+  color: #b99877;
+}
+
+.contact-links-container  {
+  width: 50%;
+  height: 100%;
+}
+
+.email-title  {
+  font-family: 'Germania One', cursive;
+  font-size: 22px;
+  color: #b99877;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.email-address  {
+  font-size: 17px;
+  color: #666666;
+  margin: 0px 0 0px 2px;
+}
+
+.phone-number  {
+  font-size: 22px;
+  color: #666666;
+  margin: 0 0 0 6px;
+}
+
+.phone-title  {
+  font-family: 'Germania One', cursive;
+  font-size: 22px;
+  color: #b99877;
 }
 
 .contact-section-bottom-border  {
