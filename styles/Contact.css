@@ -1,0 +1,72 @@
+.contact-section-container {
+  width: 100%;
+  height: 550px;
+  /*background: #8a8a8a;*/
+  /*margin-top: 40px;*/
+  margin-bottom: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.contact-background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #8a8a8a;
+  top: 30px;
+  left: 0px;
+  z-index: -1;
+}
+
+.contact-background-image {
+  width: 105%;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  opacity: .4;
+  z-index: -1;
+}
+
+.contact-section-top-border  {
+  width: 120%;
+  height: 100px;
+  background: #FFF;
+  transform: rotate(-1deg);
+  position: absolute;
+  top: -50px;
+  left: 0px;
+  z-index: 1;
+  box-shadow: 1px 1px 40px black;
+}
+
+.contact-section-title {
+  font-family: 'Germania One', cursive;
+  font-size: 37px;
+  color: #FFF;
+  margin-top: 74px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.contact-form-container  {
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  margin-top: 25px;
+  background: #FFF;
+  opacity: .2;
+  border-radius: 5px;
+  box-shadow: 1px 1px 40px black;
+}
+
+.contact-section-bottom-border  {
+  width: 120%;
+  height: 100px;
+  background: #FFF;
+  transform: rotate(-1deg);
+  position: absolute;
+  top: 515px;
+  left: 0px;
+  z-index: 1;
+  box-shadow: 1px 1px 40px black;
+}

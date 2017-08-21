@@ -2,18 +2,6 @@
           Who I Am Page
 ***********************************************/
 
-/*.who-i-am-page-spacer  {
-  width: 100%;
-  height: 100px;
-}*/
-
-/*.who-i-am-container {
-  height: 800px;
-  width: 100%;
-  background: #FFF;
-  position: relative;
-}*/
-
 .who-i-am-page-container-title-container {
   height: 40px;
   width: 200PX;
@@ -65,13 +53,11 @@
   width: 100%;
   height: 37%;
   position: absolute;
-  /*top: 28px;*/
   display: flex;
   justify-content: center;
 }
 
 .who-i-am-page-profile-image  {
-  /*width: 180px;*/
   height: 100%;
   margin-top: 6px;
   border-radius: 100px;
@@ -103,197 +89,16 @@
   font-size: 26px;
   font-weight: 800;
   color: #b99877;
-  /* margin-top: 10px; */
   margin: -7px 0 0 10px;
   text-decoration: underline;
   position: absolute;
 }
 
-/*.outline-container  {
-  width: 90%;
-  height: 70%;
-  position: absolute;
-  top: 10px;
-  left: 0px;
-}*/
-
 .who-i-am-page-outline {
   font-size: 15px;
   font-weight: 400;
-  /* margin: 0 10px 0 10px; */
   padding: 10px 10px 0 7px;
   position: absolute;
   top: 21px;
   opacity: .6;
 }
-
-
-
-/**********************************************
-          Skills Container
-***********************************************/
-
-/*.who-i-am-page-skills-container {
-  height: 400px;
-  width: 50%;
-  display: inline-block;
-  border-radius: 5px;
-  position: relative;
-}
-
-.who-i-am-page-skills-container-background {
-  height: 418px;
-  width: 100%;
-  display: inline-block;
-  background: #dce4e7;
-  opacity: .5;
-  border-radius: 5px;
-  position: absolute;
-  top: -22px;
-  z-index: 0;
-  box-shadow: 1px 1px 4px black;
-}
-
-.who-i-am-page-skills-aquired  {
-  font-family: 'Germania One', cursive;
-  font-size: 26px;
-  font-weight: 800;
-  color: #b99877;
-  margin: 28px 0 0 20px;
-  text-decoration: underline;
-  position: absolute;
-  z-index: 1;
-}
-
-.who-i-am-page-bar-graph-sec  {
-  width: 90%;
-  height: 320px;
-  position: absolute;
-  left: 4%;
-  top: 17%;
-}
-
-.who-i-am-page-bar-graph-container  {
-  width: 100%;
-  height: 260px;
-  margin-top: 20px;
-  display: flex;
-}
-
-.who-i-am-page-bar-graph-numbers  {
-  width: 14%;
-  display: inline-block;
-}
-
-.who-i-am-page-graph-numbers  {
-  font-size: 20px;
-  color: #666666;
-  margin: 37px 10px 0 0;
-  text-align: right;
-}
-
-.who-i-am-page-graph-numbers1  {
-  font-size: 20px;
-  color: #666666;
-  margin: 0 10px 0 0;
-  text-align: right;
-}
-
-.who-i-am-page-bargraph-chart-container {
-  width: 89%;
-  height: 100%;
-  display: inline-block;
-}
-
-.who-i-am-page-bars-container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-}
-
-.who-i-am-page-bar-graph-labels {
-  font-size: 14px;
-  position: absolute;
-  top: 283px;
-  text-align: center;
-}
-
-.who-i-am-page-bar-base {
-  height: 100%;
-  width: 13%;
-  background: #b99877;
-  margin-left: 10%;
-  display: inline-block;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-}
-
-.bb1  {
-  margin-left: 5px;
-}
-
-.bb14  {
-  margin-right: 10%;
-}
-
-.who-i-am-page-bar-color  {
-  width: 100%;
-  background: #dae4e9;
-}*/
-
-/*.bc1  {
-  height: 30%;
-  animation-name: bc1;
-  animation-duration: 4s;
-}
-
-@keyframes bc1 {
-    0%   {height: 0%;}
-    25%  {height: 100%;}
-    50%  {height: 90%;}
-    75%  {height: 50%;}
-    100% {height: 30%;}
-}
-
-.bc2  {
-  height: 20%;
-  animation-name: bc2;
-  animation-duration: 4s;
-}
-
-@keyframes bc2 {
-    0%   {height: 0%;}
-    25%  {height: 100%;}
-    50%  {height: 60%;}
-    75%  {height: 100%;}
-    100% {height: 20%;}
-}
-
-.bc3  {
-  height: 50%;
-  animation-name: bc3;
-  animation-duration: 4s;
-}
-
-@keyframes bc3 {
-    0%   {height: 0%;}
-    25%  {height: 70%;}
-    50%  {height: 40%;}
-    75%  {height: 70%;}
-    100% {height: 50%;}
-}
-
-.bc4  {
-  height: 30%;
-  animation-name: bc4;
-  animation-duration: 4s;
-}
-
-@keyframes bc4 {
-    0%   {height: 0%;}
-    25%  {height: 50%;}
-    50%  {height: 40%;}
-    75%  {height: 70%;}
-    100% {height: 30%;}
-}*/
