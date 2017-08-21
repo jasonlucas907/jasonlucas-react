@@ -31,10 +31,10 @@
 }
 
 .inner-who-i-am-container {
-  height: 400px;
+  height: 500px;
   width: 90%;
   margin: auto;
-  margin-top: 35px;
+  /*margin-top: 35px;*/
   animation-name: inner-container-slide;
   animation-duration: 3s;
 }
@@ -46,7 +46,7 @@
 }
 
 .who-i-am-image-container  {
-  height: 400px;
+  height: 500px;
   width: 49%;
   display: inline-block;
   position: relative;
@@ -54,8 +54,9 @@
 
 .who-i-am-upper-container {
   width: 100%;
-  height: 45%;
+  height: 38%;
   position: absolute;
+  top: 28px;
   display: flex;
   justify-content: center;
 }
@@ -86,6 +87,7 @@
 }
 
 .who-i-am-name  {
+  font-family: 'Germania One', cursive;
   font-size: 26px;
   font-weight: 800;
   color: #b99877;
@@ -95,24 +97,15 @@
   position: absolute;
 }
 
-/*.outline-container  {
-  width: 90%;
-  height: 70%;
-  position: absolute;
-  top: 10px;
-  left: 0px;
-}*/
-
 .who-i-am-outline {
   font-size: 15px;
   font-weight: 400;
   /* margin: 0 10px 0 10px; */
-  padding: 10px 10px 0 10px;
+  padding: 10px 10px 0 7px;
   position: absolute;
-  top: 46px;
+  top: 45px;
   opacity: .6;
 }
-
 
 
 /**********************************************
@@ -128,22 +121,24 @@
 }
 
 .who-i-am-skills-container-background {
-  height: 400px;
+  height: 418px;
   width: 100%;
   display: inline-block;
   background: #dce4e7;
   opacity: .3;
   border-radius: 5px;
   position: absolute;
+  top: -22px;
   z-index: 0;
   box-shadow: 1px 1px 4px black;
 }
 
 .skills-aquired  {
-  font-size: 26px;
+  font-family: 'Germania One', cursive;
+  font-size: 38px;
   font-weight: 800;
   color: #b99877;
-  margin: 28px 0 0 20px;
+  margin: 11px 0 0 20px;
   text-decoration: underline;
   position: absolute;
   z-index: 1;
@@ -231,7 +226,7 @@
 }
 
 .bc1  {
-  height: 30%;
+  height: 20%;
   animation-name: bc1;
   animation-duration: 4s;
 }
@@ -241,11 +236,11 @@
     25%  {height: 100%;}
     50%  {height: 90%;}
     75%  {height: 50%;}
-    100% {height: 30%;}
+    100% {height: 20%;}
 }
 
 .bc2  {
-  height: 20%;
+  height: 10%;
   animation-name: bc2;
   animation-duration: 4s;
 }
@@ -255,11 +250,11 @@
     25%  {height: 100%;}
     50%  {height: 60%;}
     75%  {height: 100%;}
-    100% {height: 20%;}
+    100% {height: 10%;}
 }
 
 .bc3  {
-  height: 50%;
+  height: 25%;
   animation-name: bc3;
   animation-duration: 4s;
 }
@@ -269,7 +264,7 @@
     25%  {height: 70%;}
     50%  {height: 40%;}
     75%  {height: 70%;}
-    100% {height: 50%;}
+    100% {height: 25%;}
 }
 
 .bc4  {

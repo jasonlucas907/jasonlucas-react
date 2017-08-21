@@ -31,7 +31,8 @@
   position: absolute;
   top: 0px;
   left: 58%;
-  height: 400px;
+  height: 425px;
+  transform: rotate(2deg);
   width: 42%;
   background: #FFF;
   opacity: .2;
