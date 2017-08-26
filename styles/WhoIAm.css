@@ -3,24 +3,24 @@
 ***********************************************/
 
 .who-i-am-container {
-  height: 800px;
   width: 100%;
+  height: 800px;
   background: #FFF;
   position: relative;
 }
 
 .who-i-am-container-title-container {
-  height: 40px;
   width: 200PX;
+  height: 40px;
   margin: auto;
   margin-top: 30px;
-  animation-name: who-title-container-slide;
-  animation-duration: 2s;
+  /*animation-name: who-title-container-slide;
+  animation-duration: 2s;*/
 }
 
 @keyframes who-title-container-slide {
-    0%   {margin-top: 50px;}
-    100% {margin-top: 0px;}
+  0%   {margin-top: 50px;}
+  100% {margin-top: 0px;}
 }
 
 .who-i-am-title {
@@ -32,23 +32,22 @@
 }
 
 .inner-who-i-am-container {
-  height: 500px;
   width: 90%;
+  height: 500px;
   margin: auto;
-  /*margin-top: 35px;*/
-  animation-name: inner-container-slide;
-  animation-duration: 3s;
+  /*animation-name: inner-container-slide;
+  animation-duration: 3s;*/
 }
 
 @keyframes inner-container-slide {
-    0%   {margin-right: -1000px;}
-    99% {margin-right: 75px;}
-    100% {margin-right: auto;}
+  0%   {margin-right: -1000px;}
+  99% {margin-right: 75px;}
+  100% {margin-right: auto;}
 }
 
 .who-i-am-image-container  {
-  height: 500px;
   width: 49%;
+  height: 500px;
   display: inline-block;
   position: relative;
 }
@@ -92,7 +91,6 @@
   font-size: 26px;
   font-weight: 800;
   color: #b99877;
-  /* margin-top: 10px; */
   margin: 18px 0 0 10px;
   text-decoration: underline;
   position: absolute;
@@ -101,7 +99,6 @@
 .who-i-am-outline {
   font-size: 15px;
   font-weight: 400;
-  /* margin: 0 10px 0 10px; */
   padding: 10px 10px 0 7px;
   position: absolute;
   top: 45px;
@@ -114,16 +111,16 @@
 ***********************************************/
 
 .who-i-am-skills-container {
-  height: 418px;
   width: 50%;
+  height: 418px;
   display: inline-block;
   border-radius: 5px;
   position: relative;
 }
 
 .who-i-am-skills-container-background {
-  height: 418px;
   width: 100%;
+  height: 418px;
   display: inline-block;
   background: #dce4e7;
   opacity: .5;
@@ -157,15 +154,12 @@
 .bar-graph-container  {
   width: 100%;
   height: 260px;
-  /*background: #edf2f6;*/
   margin-top: 20px;
   display: flex;
 }
 
 .bar-graph-numbers  {
   width: 14%;
-  /*height: 100%;
-  background: #edf2f6;*/
   display: inline-block;
 }
 
@@ -192,7 +186,6 @@
 .bars-container {
   width: 100%;
   height: 100%;
-  /*background: #edf2f6;*/
   display: flex;
 }
 
@@ -204,8 +197,8 @@
 }
 
 .bar-base {
-  height: 100%;
   width: 13%;
+  height: 100%;
   background: #b99877;
   margin-left: 10%;
   display: inline-block;
@@ -234,11 +227,11 @@
 }
 
 @keyframes bc1 {
-    0%   {height: 0%;}
-    25%  {height: 100%;}
-    50%  {height: 90%;}
-    75%  {height: 50%;}
-    100% {height: 20%;}
+  0%   {height: 0%;}
+  25%  {height: 100%;}
+  50%  {height: 90%;}
+  75%  {height: 50%;}
+  100% {height: 20%;}
 }
 
 .bc2  {
@@ -248,11 +241,11 @@
 }
 
 @keyframes bc2 {
-    0%   {height: 0%;}
-    25%  {height: 100%;}
-    50%  {height: 60%;}
-    75%  {height: 100%;}
-    100% {height: 10%;}
+  0%   {height: 0%;}
+  25%  {height: 100%;}
+  50%  {height: 60%;}
+  75%  {height: 100%;}
+  100% {height: 10%;}
 }
 
 .bc3  {
@@ -262,11 +255,11 @@
 }
 
 @keyframes bc3 {
-    0%   {height: 0%;}
-    25%  {height: 70%;}
-    50%  {height: 40%;}
-    75%  {height: 70%;}
-    100% {height: 25%;}
+  0%   {height: 0%;}
+  25%  {height: 70%;}
+  50%  {height: 40%;}
+  75%  {height: 70%;}
+  100% {height: 25%;}
 }
 
 .bc4  {
@@ -276,9 +269,128 @@
 }
 
 @keyframes bc4 {
-    0%   {height: 0%;}
-    25%  {height: 50%;}
-    50%  {height: 40%;}
-    75%  {height: 70%;}
-    100% {height: 30%;}
+  0%   {height: 0%;}
+  25%  {height: 50%;}
+  50%  {height: 40%;}
+  75%  {height: 70%;}
+  100% {height: 30%;}
+}
+
+
+/***************************************
+media query 870
+****************************************/
+
+@media screen and (max-width: 870px) {
+
+  .inner-who-i-am-container {
+    height: 534px;
+  }
+
+  @keyframes inner-container-slide {
+    0%   {margin-right: -1000px;}
+    99% {margin-right: 40px;}
+    100% {margin-right: auto;}
+  }
+
+  .who-i-am-upper-container {
+    height: 34%;
+    top: 108px;
+  }
+
+  .who-i-am-lower-container {
+    height: 347px;
+    top: 55%;
+  }
+
+  .who-i-am-image-container {
+    top: -74px;
+  }
+
+  .who-i-am-skills-container  {
+    top: 8px;
+  }
+
+}
+
+/***************************************
+media query 610
+****************************************/
+
+@media screen and (max-width: 610px) {
+
+  .who-i-am-title {
+    font-size: 30px;
+  }
+
+  .who-i-am-container-title-container {
+    margin-top: 14px;
+  }
+
+  .who-i-am-image-container {
+    width: 100%;
+  }
+
+  .inner-who-i-am-container {
+    height: 972px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .who-i-am-upper-container {
+    height: 34%;
+     top: 90px;
+  }
+
+  .who-i-am-lower-container {
+    top: 54%;
+    height: 342px;
+  }
+
+  .who-i-am-lower-container-background  {
+    height: 342px;
+  }
+
+  .who-i-am-skills-container  {
+    width: 96%;
+    height: 392px;
+    display: block;
+    top: 75px;
+  }
+
+  .who-i-am-outline {
+    font-size: 20px;
+  }
+
+  .bar-graph-labels {
+    font-size: 10px;
+  }
+
+}
+
+
+/***************************************
+media query 560
+****************************************/
+
+@media screen and (max-width: 560px) {
+
+  .who-i-am-outline {
+    font-size: 17px;
+  }
+
+}
+
+
+/***************************************
+media query 420
+****************************************/
+
+@media screen and (max-width: 420px) {
+
+  .who-i-am-outline {
+    font-size: 15px;
+  }
+
 }

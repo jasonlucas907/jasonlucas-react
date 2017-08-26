@@ -1,13 +1,7 @@
-/**********************************************
-          Main Landing Page
-***********************************************/
 
-.main-landing-page  {
-
-}
 
 /**********************************************
-          My Name Is Container
+          My Name Is
 ***********************************************/
 
 .my-name-is-container {
@@ -28,13 +22,13 @@
 }
 
 .my-name-background {
+  width: 42%;
+  height: 800px;
+  background: #FFF;
+  opacity: .2;
   position: absolute;
   top: 0px;
   left: 58%;
-  height: 800px;
-  width: 42%;
-  background: #FFF;
-  opacity: .2;
   box-shadow: -13px 0px 24px black;
   z-index: 0;
   animation-name: my-name-background-slide;
@@ -51,24 +45,24 @@
 }
 
 .hi-container-background {
+  width: 39%;
+  height: 45px;
+  background: white;
+  opacity: .2;
   position: absolute;
   top: 300px;
   left: 61%;
-  height: 45px;
-  width: 39%;
-  background: white;
-  opacity: .2;
   box-shadow: -2px 2px 24px black;
   animation-name: hi-container-slide;
   animation-duration: 2s;
 }
 
 .hi-container {
+  width: 39%;
+  height: 45px;
   position: absolute;
   top: 300px;
   left: 61%;
-  height: 45px;
-  width: 39%;
   animation-name: hi-container-slide;
   animation-duration: 2s;
 }
@@ -131,11 +125,11 @@
 }
 
 .name-outer-container {
+  width: 42%;
+  height: 800px;
   position: absolute;
   top: 0px;
   left: 58%;
-  height: 800px;
-  width: 42%;
   animation-name: name-outer-container-slide;
   animation-duration: 1s;
 }
@@ -150,11 +144,11 @@
 }
 
 .name-container {
+  width: 86%;
+  height: 103px;
   position: absolute;
   top: 40%;
   left: 12%;
-  height: 103px;
-  width: 86%;
 }
 
 .jason-lucas  {
@@ -212,8 +206,8 @@
 }
 
 .scroll-line  {
-  height: 53px;
   width: 5px;
+  height: 53px;
   background: #FFF;
   position: absolute;
   top: 706px;
@@ -222,8 +216,8 @@
 }
 
 .my-name-bottom-border  {
-  height: 80px;
   width: 140%;
+  height: 80px;
   background: #FFF;
   position: absolute;
   top: 746px;
@@ -231,4 +225,225 @@
   transform: rotate(-2deg);
   box-shadow: 2px -6px 24px black;
   z-index: 9;
+}
+
+
+/***************************************
+media query 900
+****************************************/
+
+@media screen and (max-width: 900px) {
+
+  .my-name-is-container {
+    height: 500px;
+  }
+
+  .scroll {
+    top: 430px
+  }
+
+  .scroll-line  {
+    top: 455px;
+    left: 51%;
+  }
+
+  .my-name-bottom-border  {
+    top: 472px;
+  }
+
+  .my-name-background {
+    height: 500px;
+  }
+
+  .hi-container-background  {
+    top: 170px;
+  }
+
+  .hi-container {
+    top: 171px;
+  }
+
+  .my-name  {
+    left: 23%;
+  }
+
+  .name-outer-container {
+    height: 500px;
+  }
+
+  @keyframes name-outer-container-slide {
+    0% {
+      height: 0px;
+    }
+    100% {
+      height: 500px;
+    }
+  }
+
+  .jason-lucas  {
+    font-size: 53px;
+  }
+
+  .developer  {
+    font-size: 26px;
+    top: 51px;
+    left: 141px;
+  }
+
+}
+
+
+/***************************************
+media query 750
+****************************************/
+
+@media screen and (max-width: 750px) {
+
+  .jason-lucas  {
+    font-size: 39px;
+    top: 0px;
+  }
+
+  .developer  {
+    font-size: 20px;
+    top: 33px;
+    left: 99px;
+  }
+
+  .hi {
+    font-size: 28px;
+  }
+
+  .my-name  {
+    font-size: 28px;
+  }
+
+  .hi-container {
+    height: 32px;
+  }
+
+  .hi-container-background  {
+    height: 32px;
+  }
+
+}
+
+
+/***************************************
+media query 560
+****************************************/
+
+@media screen and (max-width: 560px) {
+
+  .my-name-is-container {
+    height: 270px;
+  }
+
+  .my-name-bottom-border  {
+    top: 254px;
+  }
+
+  .scroll {
+    display: none;
+  }
+
+  .scroll-line  {
+    display: none;
+  }
+
+  .my-name-background {
+    width: 55%;
+    height: 270px;
+    left: 48%;
+  }
+
+  .hi-container-background  {
+    width: 50%;
+    height: 23px;
+    top: 63px;
+    left: 56%;
+  }
+
+  .jason-lucas   {
+    font-size: 30px;
+  }
+
+  .developer  {
+    font-size: 14px;
+    left: 89px;
+    top: 24px;
+  }
+
+  .hi-container {
+    width: 50%;
+    height: 23px;
+    top: 63px;
+    left: 56%;
+  }
+
+  @keyframes hi-container-slide {
+    0% {
+      left: 100%;
+      width: 0%;
+    }
+    100% {
+      left: 56%;
+      width: 50%;
+    }
+  }
+
+  .hi {
+    font-size: 19px;
+    left: 4%;
+  }
+
+  @keyframes hi-slide {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: 4%;
+    }
+  }
+
+  .my-name  {
+    font-size: 19px;
+  }
+
+  @keyframes my-name-slide {
+    0% {
+      left: 100%;
+      opacity: 0;
+    }
+    90% {
+      left: 50%;
+      opacity: 0;
+    }
+    100% {
+      left: 23%;
+      opacity: 1;
+    }
+  }
+
+  .name-outer-container {
+    width: 55%;
+    height: 270px;
+    left: 51%;
+  }
+
+  @keyframes name-outer-container-slide {
+    0% {
+      height: 0px;
+    }
+    100% {
+      height: 270px;
+    }
+  }
+
+  .name-container {
+    width: 90%;
+    left: 0%;
+    top: 32%;
+  }
+
 }

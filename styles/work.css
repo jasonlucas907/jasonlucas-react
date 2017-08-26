@@ -29,18 +29,6 @@
   text-decoration: underline;
 }
 
-.work-section-more-work {
-  font-size: 16px;
-  color: #FFF;
-  /*margin-top: 100px;*/
-  text-align: center;
-}
-
-.work-section-more-work:hover {
-  cursor: pointer;
-  color: #b99877;
-}
-
 .work-section-card-container  {
   width: 100%;
   height: 300px;
@@ -61,4 +49,38 @@
   left: 0px;
   z-index: 1;
   box-shadow: 1px 1px 40px black;
+}
+
+
+/***************************************
+media query 960
+****************************************/
+
+@media screen and (max-width: 960px) {
+
+  .work-section-container {
+    height: 1015px;
+  }
+
+  .work-section-bottom-border {
+    top: 1007px;
+  }
+
+}
+
+
+/***************************************
+media query 639
+****************************************/
+
+@media screen and (max-width: 639px) {
+
+  .work-section-container {
+    height: 1840px;
+  }
+
+  .work-section-bottom-border {
+    top: 1830px;
+  }
+
 }

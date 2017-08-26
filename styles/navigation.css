@@ -1,5 +1,5 @@
 /**********************************************
-          Header
+          Main Navigation
 ***********************************************/
 
 /**********************************************
@@ -82,7 +82,7 @@ to {transform: rotate(360deg);}
 }
 
 .navigation-container-open  {
-  height: 400px;
+  height: 345px;
   transform: rotate(3deg);
   animation-duration: .7s;
   animation-name: menu-slide-open;
@@ -111,42 +111,42 @@ to {transform: rotate(360deg);}
     transform: rotate(0deg);
   }
   40% {
-    height: 400px;
+    height: 345px;
     transform: rotate(0deg);
   }
   50% {
-    height: 400px;
+    height: 345px;
     transform: rotate(-4deg);
   }
   60% {
-    height: 400px;
+    height: 345px;
     transform: rotate(0deg);
   }
   30% {
-    height: 400px;
+    height: 345px;
     transform: rotate(4deg);
   }
   70% {
-    height: 400px;
+    height: 345px;
     transform: rotate(0deg);
   }
   80% {
-    height: 400px;
+    height: 345px;
     transform: rotate(-2deg);
   }
   90% {
-    height: 400px;
+    height: 345px;
     transform: rotate(0deg);
   }
   100% {
-    height: 400px;
+    height: 345px;
     transform: rotate(3deg);
   }
 }
 
 @keyframes menu-slide-close {
   0% {
-    height: 400px;
+    height: 345px;
     transform: rotate(1deg);
   }
   100% {
@@ -165,14 +165,12 @@ to {transform: rotate(360deg);}
   width: 100%;
   margin: auto;
   margin-top: 0px;
-  /*margin-bottom: 0px;*/
   transform: rotate(-3deg);
 }
 
 .nav-links-open {
-  height: 240px;
-  margin-top: 140px;
-  /*margin-bottom: 0px;*/
+  height: 200px;
+  margin-top: 120px;
   animation-duration: .7s;
   animation-name: nav-links-slide-open;
 }
@@ -214,27 +212,27 @@ to {transform: rotate(360deg);}
     margin-top: 40px;
   }
   30% {
-    height: 240px;
+    height: 200px;
     transform: rotate(4deg);
     margin-top: 60px;
   }
   70% {
-    height: 240px;
+    height: 200px;
     transform: rotate(0deg);
     margin-top: 80px;
   }
   80% {
-    height: 240px;
+    height: 200px;
     transform: rotate(-2deg);
     margin-top: 100px;
   }
   90% {
-    height: 240px;
+    height: 200px;
     transform: rotate(0deg);
     margin-top: 120px;
   }
   100% {
-    height: 240px;
+    height: 200px;
     transform: rotate(0deg);
     margin-top: 140px;
   }
@@ -243,7 +241,6 @@ to {transform: rotate(360deg);}
 .nav-links-close  {
   height: 0px;
   margin-top: 0px;
-  /*margin-bottom: 0px;*/
   animation-duration: .2s;
   animation-name: nav-links-slide-close;
 }
@@ -289,7 +286,6 @@ to {transform: rotate(360deg);}
   text-shadow: 1px 1px 2px black;
   position: absolute;
   top: 10px;
-  /*left: 0px;*/
   transform: rotate(0deg);
 }
 
@@ -427,4 +423,296 @@ to {transform: rotate(360deg);}
   100% {
     height: 0px;
   }
+}
+
+
+/***************************************
+media query 800
+****************************************/
+
+@media screen and (max-width: 800px) {
+
+  .menu-icon  {
+    height: 46px;
+  }
+
+  .menu-close-title {
+    font-size: 10px;
+    top: 51px;
+    left: 75px;
+  }
+
+  .navigation-container-open  {
+    height: 298px;
+  }
+
+  @keyframes menu-slide-open {
+    0% {
+      height: 0px;
+      transform: rotate(0deg);
+    }
+    10% {
+      height: 100px;
+      transform: rotate(0deg);
+    }
+    20% {
+      height: 200px;
+      transform: rotate(0deg);
+    }
+    30% {
+      height: 298px;
+      transform: rotate(0deg);
+    }
+    40% {
+      height: 298px;
+      transform: rotate(0deg);
+    }
+    50% {
+      height: 298px;
+      transform: rotate(-4deg);
+    }
+    60% {
+      height: 298px;
+      transform: rotate(0deg);
+    }
+    30% {
+      height: 298px;
+      transform: rotate(4deg);
+    }
+    70% {
+      height: 298px;
+      transform: rotate(0deg);
+    }
+    80% {
+      height: 298px;
+      transform: rotate(-2deg);
+    }
+    90% {
+      height: 298px;
+      transform: rotate(0deg);
+    }
+    100% {
+      height: 298px;
+      transform: rotate(3deg);
+    }
+  }
+
+  @keyframes menu-slide-close {
+    0% {
+      height: 298px;
+      transform: rotate(1deg);
+    }
+    100% {
+      height: 0px;
+      transform: rotate(0deg);
+    }
+  }
+
+  .nav-links-open {
+    height: 170px;
+  }
+
+  @keyframes nav-links-slide-open {
+    0% {
+      height: 0px;
+      transform: rotate(0deg);
+      margin-top: 0px;
+    }
+    10% {
+      height: 0px;
+      transform: rotate(0deg);
+      margin-top: 0px;
+    }
+    20% {
+      height: 0px;
+      transform: rotate(0deg);
+      margin-top: 0px;
+    }
+    30% {
+      height: 80px;
+      transform: rotate(0deg);
+      margin-top: 0px;
+    }
+    40% {
+      height: 120px;
+      transform: rotate(0deg);
+      margin-top: 0px;
+    }
+    50% {
+      height: 170px;
+      transform: rotate(-4deg);
+      margin-top: 20px;
+    }
+    60% {
+      height: 170px;
+      transform: rotate(0deg);
+      margin-top: 40px;
+    }
+    30% {
+      height: 170px;
+      transform: rotate(4deg);
+      margin-top: 60px;
+    }
+    70% {
+      height: 170px;
+      transform: rotate(0deg);
+      margin-top: 80px;
+    }
+    80% {
+      height: 170px;
+      transform: rotate(-2deg);
+      margin-top: 100px;
+    }
+    90% {
+      height: 170px;
+      transform: rotate(0deg);
+      margin-top: 120px;
+    }
+    100% {
+      height: 170px;
+      transform: rotate(0deg);
+      margin-top: 140px;
+    }
+  }
+
+  @keyframes nav-links-slide-close {
+    0% {
+      height: 170px;
+      margin-top: 140px;
+    }
+    100% {
+      height: 0px;
+      margin-top: 0px;
+    }
+  }
+
+  .nav-link-title-description {
+    font-size: 23px;
+    top: 52px;
+  }
+
+  .nav-link-main-title  {
+    font-size: 53px;
+    left: 27px;
+  }
+
+  .nav-link-title {
+    font-size: 17px;
+  }
+
+  .nav-link-container {
+    width: 80%;
+    margin: auto;
+  }
+
+  .nav-link-description {
+    font-size: 8px;
+  }
+
+}
+
+
+/***************************************
+media query 560
+****************************************/
+
+@media screen and (max-width: 560px) {
+
+.menu-icon  {
+  height: 37px;
+  top: 16px;
+  left: 13px;
+}
+
+.menu-close-title {
+  display: none;
+}
+
+.nav-link-main-title  {
+  font-size: 40px;
+  left: 73px;
+}
+
+.nav-link-title-description {
+  font-size: 19px;
+  top: 42px;
+}
+
+.nav-link-container {
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+}
+
+.navigation-container-open  {
+  height: 382px;
+  width: 121%;
+}
+
+@keyframes menu-slide-open {
+  0% {
+    height: 0px;
+    transform: rotate(0deg);
+  }
+  10% {
+    height: 100px;
+    transform: rotate(0deg);
+  }
+  20% {
+    height: 200px;
+    transform: rotate(0deg);
+  }
+  30% {
+    height: 382px;
+    transform: rotate(0deg);
+  }
+  40% {
+    height: 382px;
+    transform: rotate(0deg);
+  }
+  50% {
+    height: 382px;
+    transform: rotate(-4deg);
+  }
+  60% {
+    height: 382px;
+    transform: rotate(0deg);
+  }
+  30% {
+    height: 382px;
+    transform: rotate(4deg);
+  }
+  70% {
+    height: 382px;
+    transform: rotate(0deg);
+  }
+  80% {
+    height: 382px;
+    transform: rotate(-2deg);
+  }
+  90% {
+    height: 382px;
+    transform: rotate(0deg);
+  }
+  100% {
+    height: 382px;
+    transform: rotate(3deg);
+  }
+}
+
+@keyframes menu-slide-close {
+  0% {
+    height: 382px;
+    transform: rotate(1deg);
+  }
+  100% {
+    height: 0px;
+    transform: rotate(0deg);
+  }
+}
+
+.nav-link-title-container {
+  height: 50%;
+}
+
 }
