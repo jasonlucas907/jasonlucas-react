@@ -19,7 +19,7 @@
 }
 
 .contact-background-image {
-  width: 105%;
+  width: 126%;
   position: absolute;
   top: 30px;
   left: 0px;
@@ -177,7 +177,7 @@
 }
 
 .contact-links-container  {
-  width: 50%;
+  width: 70%;
   height: 100%;
 }
 
@@ -217,4 +217,131 @@
   left: 0px;
   z-index: 1;
   box-shadow: 1px 1px 40px black;
+}
+
+
+/***************************************
+media query 850
+****************************************/
+
+@media screen and (max-width: 850px) {
+
+  .submit {
+    font-size: 96%;
+  }
+
+  .email-title  {
+    font-size: 15px;
+  }
+
+  .phone-title  {
+    font-size: 15px;
+  }
+
+}
+
+
+/***************************************
+media query 775
+****************************************/
+
+@media screen and (max-width: 775px) {
+
+  .contact-background-image {
+    width: 151%;
+  }
+
+  .email-address  {
+    font-size: 14px;
+  }
+
+  .phone-number {
+    font-size: 15px;
+  }
+
+  .contact-links-container  {
+    height: 85%;
+  }
+
+}
+
+
+/***************************************
+media query 660
+****************************************/
+
+@media screen and (max-width: 660px) {
+
+  .contact-form-container {
+    flex-direction: column;
+    height: 518px;
+  }
+
+  .contact-section-bottom-border  {
+    top: 710px;
+  }
+
+  .contact-form-right {
+    width: 80%;
+    height: 45%;
+    margin-right: 0%;
+  }
+
+  .contact-section-container  {
+    height: 720px;
+  }
+
+  .contact-form-left  {
+    width: 80%;
+    height: 49%;
+    margin-top: 20px;
+  }
+
+  .contact-form-container-background  {
+    height: 530px;
+  }
+
+  .contact-background-image {
+    width: 207%;
+    height: 100%;
+    left: -150px;
+  }
+
+}
+
+
+/***************************************
+media query 477
+****************************************/
+
+@media screen and (max-width: 477px) {
+
+  .message-input  {
+    margin: 0 0 0 6px;
+  }
+
+  .form-input {
+    margin: 0 0 0 6px;
+  }
+
+  .submit {
+    font-size: 73%;
+  }
+
+  .email-address  {
+    font-size: 11px;
+  }
+
+  .email-title  {
+    font-size: 12px;
+  }
+
+  .phone-number  {
+    font-size: 14px;
+  }
+
+  .phone-title  {
+    font-size: 12px;
+  }
+
 }
